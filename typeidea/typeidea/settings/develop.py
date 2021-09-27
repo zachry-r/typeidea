@@ -10,7 +10,7 @@
 from .base import *   #NOQA
 import pymysql
 
-DEBUG=True
+DEBUG=True   # 仅开发环境
 
 pymysql.install_as_MySQLdb()
 DATABASES = {
